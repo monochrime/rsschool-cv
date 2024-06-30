@@ -2,8 +2,9 @@
 
 ## Contacts
 
-**email**: <kriliai110@gmail.com>
-**phone**: +79777710490
+**email**: <kriliai110@gmail.com>\
+**phone**: +79777710490\
+**Github**: [monochrime](https://github.com/monochrime "профиль на гитхабе") 
 
 ## Personal Info
 
