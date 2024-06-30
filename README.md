@@ -1,1 +1,1 @@
-https://monochrime.github.io/rsschool-cv/CV
+https://monochrime.github.io/rsschool-cv/cv
