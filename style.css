@@ -10,5 +10,22 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  color: #333;
+  color: #000000;
+}
+h1, h2 {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase; /* с большой буквы */
+  letter-spacing: 5px; 
+  color:#0a005f;
+}
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+  .left-column, .right-column {
+      max-width: 100%;
+  }
 }
