@@ -4,7 +4,7 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 14px;
   margin: 0;
@@ -48,6 +48,7 @@ h2 {
   max-width: 1200px;
   width: 100%;
   padding: 20px;
+  margin: 0 auto;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.048);
@@ -90,7 +91,7 @@ header {
   background-color: #e7e4e3; /* ховер это перекрытие */
 }
 .code-example pre {
-  background-color: #e6f7ff;
+  background-color: #f0f0f0;
   padding: 15px;
   border-radius: 8px;
   overflow-x: auto;
