@@ -73,23 +73,23 @@ header {
   border: thick double #eab354;
   padding: 5px;
 }
-.skills, .education, .experience, .projects {
+.skills, .education, .experience, .projects, .languages {
   list-style-type: none;
   padding: 0;
 }
-.skills li, .education li, .experience li, .projects li /* элементы списка */ {
+.skills li, .education li, .experience li, .projects li, .languages li /* элементы списка */ {
   margin: 0;
   padding: 15px;
   border-radius: 8px;
   position: relative;
 } 
-.skills li:nth-child(odd), .education li:nth-child(odd), .experience li:nth-child(odd), .projects li:nth-child(odd) {
+.skills li:nth-child(odd), .education li:nth-child(odd), .experience li:nth-child(odd), .projects li:nth-child(odd), .languages li:nth-child(odd) {
   background-color: #f0f0f0; /* нечетные элементы */
 }
-.skills li:nth-child(even), .education li:nth-child(even), .experience li:nth-child(even), .projects li:nth-child(even) {
+.skills li:nth-child(even), .education li:nth-child(even), .experience li:nth-child(even), .projects li:nth-child(even), .languages li:nth-child(even){
   background-color: #d4d4d4; /* четные элементы */
 }
-.skills li:hover, .education li:hover, .experience li:hover, .projects li:hover {
+.skills li:hover, .education li:hover, .experience li:hover, .projects li:hover, .languages li:hover {
   background-color: #e7e4e3; /* ховер это перекрытие */
 }
 .code-example pre {
@@ -100,12 +100,12 @@ header {
   border-radius: 8px;
   overflow: scroll;
 }
-.contacts a {
+.contacts {
   color: #eab354;
   text-decoration: none;
   transition: color 0.3s;
 }
-.contacts a:hover {
+.contacts:hover {
   color: #b88632;
 }
 .content {
