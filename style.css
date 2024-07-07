@@ -70,6 +70,8 @@ header {
   width: 180px;
   height: 180px;
   object-fit: cover;
+  border: thick double #eab354;
+  padding: 5px;
 }
 .skills, .education, .experience, .projects {
   list-style-type: none;
