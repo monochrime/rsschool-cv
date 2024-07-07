@@ -92,21 +92,24 @@ header {
 .skills li:hover, .education li:hover, .experience li:hover, .projects li:hover, .languages li:hover {
   background-color: #e7e4e3; /* ховер это перекрытие */
 }
-.code-example pre {
-  width: 768px;
-  height: 100%;
-  background-color: #f0f0f0;
-  padding: 15px;
-  border-radius: 8px;
-  overflow: scroll;
+.contacts-list {
+  list-style: none;
+  padding: 0;
 }
-.contacts {
-  color: #eab354;
+.contacts-list li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.contacts-list li a {
+  color: #5f787b;
   text-decoration: none;
-  transition: color 0.3s;
+  margin-left: 10px;
+  font-weight: normal;
 }
-.contacts:hover {
-  color: #b88632;
+.contacts-list li a:hover {
+  color: #eab354;
 }
 a[href^="mailto:"]:before {
   content: "\2709";
@@ -115,6 +118,14 @@ a[href^="mailto:"]:before {
 a[href^="tel:"]:before {
   content: "\2706";
   margin-right: 5px;
+}
+.code-example pre {
+  width: 768px;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  overflow: scroll;
 }
 .content {
   display: flex;
