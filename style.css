@@ -23,15 +23,15 @@ h1 {
   color:#eab354;
   position: relative;
   background-color: #5f787b;
-  border-radius: 10% 5% 20% 15%;
+  border-radius: 10px 100px / 120px;
 }
 h1::before {
   content: "";
-  width: 300px;
+  width: 200px;
   height: 3px;
   background-color: #eab354;
   position: absolute;
-  left: 0;
+  left: 40px;
   bottom: -10px;
 }
 h2 {
