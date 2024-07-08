@@ -18,7 +18,7 @@ h1 {
   font-size: 22px;
   font-weight: 400;
   text-align: center;
-  text-transform: uppercase; /* с большой буквы */
+  text-transform: uppercase; 
   letter-spacing: 3px; 
   color:#eab354;
   position: relative;
@@ -39,7 +39,7 @@ h2 {
   font-size: 20px;
   font-weight: 400;
   text-align: left;
-  text-transform: uppercase; /* с большой буквы */
+  text-transform: uppercase; 
   letter-spacing: 5px; 
   color:#eab354;
   position: relative;
@@ -77,20 +77,20 @@ header {
   list-style-type: none;
   padding: 0;
 }
-.skills li, .education li, .experience li, .projects li, .languages li /* элементы списка */ {
+.skills li, .education li, .experience li, .projects li, .languages li {
   margin: 0;
   padding: 15px;
   border-radius: 8px;
   position: relative;
 } 
 .skills li:nth-child(odd), .education li:nth-child(odd), .experience li:nth-child(odd), .projects li:nth-child(odd), .languages li:nth-child(odd) {
-  background-color: #f0f0f0; /* нечетные элементы */
+  background-color: #f0f0f0; 
 }
 .skills li:nth-child(even), .education li:nth-child(even), .experience li:nth-child(even), .projects li:nth-child(even), .languages li:nth-child(even){
-  background-color: #d4d4d4; /* четные элементы */
+  background-color: #d4d4d4; 
 }
 .skills li:hover, .education li:hover, .experience li:hover, .projects li:hover, .languages li:hover {
-  background-color: #e7e4e3; /* ховер это перекрытие */
+  background-color: #e7e4e3; 
 }
 .contacts-list {
   list-style: none;
@@ -157,7 +157,7 @@ a[href^="tel:"]:before {
   text-transform: uppercase;
   color: #ffffff;
 }
-.nav-link:hover /* ховер это перекрытие, тут при наведении */{
+.nav-link:hover {
   color: #e7e4e3;
 }
 .bubble {
